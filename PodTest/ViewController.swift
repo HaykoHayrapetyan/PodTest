@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import HexColors
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var myView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        myView.backgroundColor = UIColor("#ff1a1a")
     }
 
     override func didReceiveMemoryWarning() {
